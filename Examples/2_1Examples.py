@@ -195,7 +195,7 @@ def angularRate(c1, c2):
     angrate2.plot(ax, color='C1', label=r'$\omega^{[2]}(t)$')
     ax.set_title('Angular Rate')
     ax.set_xlabel('Time (s)')
-    ax.set_ylabel(r'Angular Rate $\left( \frac{rad}{s^2} \right)$')
+    ax.set_ylabel(r'Angular Rate $\left( \frac{rad}{s} \right)$')
     ax.legend()
 
 
